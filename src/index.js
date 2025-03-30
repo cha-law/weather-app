@@ -3,6 +3,11 @@ import "./style.css";
 function changeLocation() {
     let newLocation = prompt("Enter a new location: ");
 
+    // When the prompt is cancelled
+    if (newLocation === null) {
+        return;
+    }
+
     // Capitalize
     newLocation = String(newLocation).charAt(0).toUpperCase() + String(newLocation).slice(1);
     changeWeather(newLocation);
@@ -17,7 +22,8 @@ function changeWebpageValues(temp, condition, location) {
     conditionHeader.textContent = condition.toLowerCase();
     locationHeader.textContent = location;
 
-    // Change weather icon
+    // Change styles based on weather
+
 
 }
 
@@ -30,6 +36,14 @@ async function changeWeather(location) {
     }).catch(function() {
         alert("Location not found!");
     })
+}
+
+function changeDayTime() {
+
+}
+
+function changeNightTime() {
+    
 }
 
 

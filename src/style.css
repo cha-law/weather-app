@@ -14,7 +14,6 @@ section,
 }
 
 :root {
-    --primary-color: rgb(223, 166, 44);
     --bg: linear-gradient(0deg, rgba(105,163,205,1) 0%, rgba(64,137,224,1) 100%);
 }
 
@@ -77,7 +76,7 @@ span.conditions {
 }
 
 .edit:hover {
-    fill: var(--primary-color);
+    fill: #b6b6b6;
     cursor: pointer;
 }
 
