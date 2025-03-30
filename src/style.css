@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+body,
+section,
+.content-wrapper {
+    display: flex;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    padding: 32px;
+    border-radius: 8px;
+    background-color: #eee;
+    justify-content: flex-end;
+}
+
+svg {
+    width: 24px;
+}
