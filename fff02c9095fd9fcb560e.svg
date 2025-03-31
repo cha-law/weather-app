@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="url(#0)">
+    <defs>
+        <linearGradient id="0" x1="0%" y1="100%" x2="50%" y2="0%">
+        <stop offset="0%" stop-color="#ed8936"/>
+        <stop offset="100%" stop-color="#ecc94b"/>
+        </linearGradient>
+    </defs>
+    <title>white-balance-sunny</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>circle</title><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg> 
+</svg> 
